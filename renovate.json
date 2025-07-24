@@ -1,7 +1,7 @@
 {
   "hostRules": [
     {
-      "matchHost": "https://diffend.jfrog.io/artifactory/api/npm/npm-private-local",
+      "matchHost": "https://diffend.jfrog.io/artifactory/api/",
       "token": "{{ secrets.DIFFEND_JFART_USER_TOKEN }}"
     }
   ]
