@@ -47,7 +47,7 @@
     <repository>
       <id>company-artifactory</id>
       <name>Releases</name>
-      <url>https://diffend.jfrog.io/artifactory/api/</url>
+      <url>https://diffend.jfrog.io/artifactory/api/default-maven-local</url>
       <releases><enabled>true</enabled></releases>
       <snapshots><enabled>false</enabled></snapshots>
     </repository>
