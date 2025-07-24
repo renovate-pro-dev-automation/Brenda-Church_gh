@@ -10,8 +10,8 @@
     <dependencies>
        
         <dependency>
-           <groupId>sami.private</groupId>
-           <artifactId>WST_37</artifactId>
+          <groupId>sami.private</groupId>
+           <artifactId>WST_37_wsdev</artifactId>
            <version>1.0</version>
            <type>pom</type>
         </dependency>     
