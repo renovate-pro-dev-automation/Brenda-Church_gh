@@ -3,8 +3,8 @@
     {
       "matchHost": "https://diffend.jfrog.io/artifactory/api/npm/npm-private-local",
       "hostType": "yarn",
-      "username": "automation",
-      "password": "WsdevAdmin2025!"
+      "token": "{{ secrets.DIFFEND_JFART_USER_TOKEN }}"
+
     }
   ]
 }
