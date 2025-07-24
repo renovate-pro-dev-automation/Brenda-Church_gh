@@ -43,6 +43,16 @@
         </dependency>     
     </dependencies>
 
+  <repositories>
+    <repository>
+      <id>company-artifactory</id>
+      <name>Releases</name>
+      <url>https://diffend.jfrog.io/artifactory/api/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+  </repositories>
+
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
