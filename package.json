@@ -13,7 +13,6 @@
         "release": "npm-version-up --no-shrinkwrap"
     },
     "dependencies": {
-        "@my-scope/lodash-private": "4.17.4",
         "axios": "0.19.2",
         "ms": "2.0.0"
     },
