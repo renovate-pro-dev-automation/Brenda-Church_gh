@@ -25,6 +25,13 @@
       <releases><enabled>true</enabled></releases>
       <snapshots><enabled>false</enabled></snapshots>
     </repository>
+    <repository>
+      <id>company-artifactory</id>
+      <name>Releases</name>
+      <url>https://diffend.jfrog.io/artifactory/default-maven-local</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
   </repositories>
 
     <properties>
