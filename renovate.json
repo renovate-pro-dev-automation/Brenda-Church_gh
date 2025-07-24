@@ -4,7 +4,6 @@
       "matchHost": "https://diffend.jfrog.io/artifactory/api/npm/npm-private-local",
       "hostType": "yarn",
       "token": "{{ secrets.DIFFEND_JFART_USER_TOKEN }}"
-
     }
   ]
 }
