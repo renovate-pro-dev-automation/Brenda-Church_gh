@@ -1,8 +1,15 @@
 {
   "hostRules": [
     {
-      "matchHost": "https://diffend.jfrog.io/artifactory/api/",
+      "matchHost": "https://diffend.jfrog.io/artifactory/",
       "token": "{{ secrets.DIFFEND_JFART_USER_TOKEN }}"
+    }
+  ],
+    "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      "defaultRegistryUrls": ["https://diffend.jfrog.io/artifactory/default-maven-local"],
+      "registryUrls": ["https://diffend.jfrog.io/artifactory/default-maven-local"]
     }
   ]
 }
